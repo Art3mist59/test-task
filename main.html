@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://fonts.fontstorage.com/import/opensans.css">
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
 	<title>Тестовое задание (Junior Frontend-разработчик/стажер)</title>
 </head>
@@ -22,41 +23,31 @@
 			<form class="filter__form filter-form">
 
 				<p class="filter-form__title">Колличество пересадок</p>
+				
+				<div class="filter-form__item checkbox">
+					<input type="checkbox" name="all" id="all" class="checkbox__item">
+					<label class="checkbox__label" for="all">Все</label>
+				</div>
 
-				<label class="filter-form__item">
+				<div class="filter-form__item checkbox">
+					<input type="checkbox" name="nope" id="nope" class="checkbox__item">
+					<label class="checkbox__label" for="nope">Без пересадок</label>
+				</div>
 
-					<input type="checkbox" name="">
-					Все
+				<div class="filter-form__item checkbox">
+					<input type="checkbox" name="one" id="one" class="checkbox__item">
+					<label class="checkbox__label" for="one">1 пересадка</label>
+				</div>
 
-				</label>
+				<div class="filter-form__item checkbox">
+					<input type="checkbox" name="two" id="two" class="checkbox__item">
+					<label class="checkbox__label" for="two">2 пересадки</label>
+				</div>
 
-				<label class="filter-form__item">
-
-					<input type="checkbox" name="">
-					Без пересадок
-
-				</label>
-
-				<label class="filter-form__item">
-
-					<input type="checkbox" name="">
-					1 пересадка
-
-				</label>
-
-				<label class="filter-form__item">
-
-					<input type="checkbox" name="">
-					2 пересадки
-
-				</label>
-
-				<label class="filter-form__item">
-
-					<input type="checkbox" name="">
-					3 пересадки
-
-				</label>
+				<div class="filter-form__item checkbox">
+					<input type="checkbox" name="three" id="three" class="checkbox__item"> 
+					<label class="checkbox__label" for="three">3 пересадки</label>
+				</div>
 				
 			</form>
 		</section>
