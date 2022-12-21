@@ -45,7 +45,7 @@ fetch("http://localhost:3000/tickets")
               (tickets[b].segments[0].duration < minValue.segments[0].duration && 
               tickets[b].segments[1].duration < minValue.segments[1].duration && 
               tickets[b].segments[0].duration < minValue.segments[1].duration && 
-              tickets[b].segments[0].duration < minValue.segments[0].duration) 
+              tickets[b].segments[1].duration < minValue.segments[0].duration) 
             {
 
               minValue = tickets[b];
