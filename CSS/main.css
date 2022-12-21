@@ -56,7 +56,7 @@ main{
 
 .checkbox__item:checked+label::before {
   border-color: #2196F3;
-  background-image: url("mark.svg");
+  background-image: url("../mark.svg");
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -100,11 +100,7 @@ main{
 	text-transform: uppercase;
 }
 
-.buttons__item:hover{
-	color: #fff;
-	background-color: #2196F3;
-}
-.buttons__item--active{
+.buttons__item--checked{
 	color: #fff;
 	background-color: #2196F3;
 }
