@@ -10,8 +10,6 @@ fetch("http://localhost:3000/tickets")
 
     cheap.onclick = function(){
 
-      console.log(cheap.classList);
-      console.log(fast.classList);
       if (cheap.classList.contains('buttons__item--checked')) {
         console.log(tickets);
         for (let i = 0; i <= tickets.length - 2; i++) {
@@ -30,8 +28,6 @@ fetch("http://localhost:3000/tickets")
     }
 
     fast.onclick = function(){
-      fast.classList.add('buttons__item--checked');
-      cheap.classList.remove('buttons__item--checked');
 
       if (fast.classList.contains('buttons__item--checked')) {
         for (let i = 0; i <= tickets.length - 1; i++) {
@@ -46,11 +42,6 @@ fetch("http://localhost:3000/tickets")
             }
           }
         }
-        console.log(tickets);
       }
     }
-
-
-
-
 })
